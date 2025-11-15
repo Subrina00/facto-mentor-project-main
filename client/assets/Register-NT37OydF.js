@@ -1,0 +1,1 @@
+import{w as t,o as e}from"./chunk-OIYGIGL5-bG3474qD.js";function i(){return[{title:"Sign Up"},{name:"Sign Up",content:"Welcome to facto"}]}const n=()=>e.jsx("div",{className:"flex min-h-screen items-center justify-center  w-full",children:e.jsx("h1",{children:"Sign Up"})}),r=t(n);export{r as default,i as meta};
