@@ -4,7 +4,7 @@ import { publicRoutes } from "./routes/public.routes";
 import { privateRoutes } from "./routes/private.routes";
 
 export default [
-  layout("pages/public/layout.tsx", publicRoutes),
-  layout("pages/auth/layout.tsx", authRoutes),
-  layout("pages/private/layout.tsx", privateRoutes),
+  layout("pages/public/Layout.tsx", publicRoutes),
+  layout("pages/auth/Layout.tsx", authRoutes),
+  layout("pages/private/Layout.tsx", privateRoutes),
 ] satisfies RouteConfig;
