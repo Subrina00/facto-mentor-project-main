@@ -11,4 +11,5 @@ export default defineConfig({
       "~": path.resolve(__dirname, "./app"),
     },
   },
+  base: "/facto-mentor-project-main",
 });
