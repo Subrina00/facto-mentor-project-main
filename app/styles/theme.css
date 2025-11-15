@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@theme inline {
+  --font-roboto: "Roboto", sans-serif;
+  --font-manrope: "Manrope", sans-serif;
+  --color-primary: var(--primary-color);
+  --color-heading: var(--text-color);
+  --color-primary-100: var(--primary-color-100);
+  --color-black: var(--black-color);
+  --color-black-blue: var(--black-blue-color);
+  --color-red-100: var(--red-color-100);
+  --color-red-200: oklch(0.4 0.23 35);
+  --color-description: var(--description-text-color);
+  --color-gray: var(--gray-color);
+  --color-gray-200: var(--gray-color-200);
+  --color-bg-gray: var(--bg-gray-color);
+  --color-btn-bg-gray: var(--btn-gray-color);
+}
+
+:root {
+  --primary-color: #0F4E23;
+  --text-color: #141414;
+  --primary-color-100: #c1d5f8;
+  --black-color: #000000;
+  --black-blue-color: #0b1f3d;
+  --red-color-100: #ffe8eb;
+  --red-color-200: #a6192a;
+  --description-text-color: #686868;
+  --gray-color: #686868;
+  --gray-color-200: #d0d5db;
+  --bg-gray-color: #eef3fd;
+  --btn-gray-color: #e7f0fa;
+}
+
+@layer base {
+  * {
+    @apply border-none;
+  }
+  body {
+    @apply bg-white;
+  }
+}
+
+.container-pad{
+  @apply px-[10px] sm:px-[16px];
+}
